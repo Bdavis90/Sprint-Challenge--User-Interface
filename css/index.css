@@ -73,7 +73,7 @@ p {
 
 header {
     display: flex;
-    /* width: 100%; */
+    
 }
 
 header nav {
@@ -86,6 +86,10 @@ header nav {
     margin-left: 806px
 }
 
+header nav a {
+    text-decoration: none;
+    color: black;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -103,7 +107,7 @@ header nav {
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    
 }
 
 .middle-content h2 {
@@ -146,6 +150,7 @@ header nav {
 footer {
     width: 100%;
     background: black;
+    margin-top: 33px;
 }
 
 footer nav {
@@ -201,4 +206,55 @@ footer nav a {
 
 .dodgerblue {
     background: dodgerblue;
+}
+
+.middle-content {
+    display: flex;
+    /* margin: 0 2% 20px; */
+    justify-content: space-around;
+    /* width: 200px; */
+    
+    margin-top: 20px;
+}
+
+.middle-info {
+    width: 300px;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+
+button {
+    border-radius: 10px;
+    padding: 8ox 30px;
+    background: transparent;
+}
+
+.box-img {
+    padding-bottom: 20px;
+}
+
+.plan-img {
+    padding-bottom: 20px;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.bottom-info {
+    width: 300px;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.last-info {
+    margin-top: 20px;
+}
+
+.about-info {
+    border-bottom: 1px dashed black;
+    padding-bottom: 23px;
 }
