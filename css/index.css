@@ -77,13 +77,13 @@ header {
 }
 
 header nav {
-    width: 36%;
+    width: 34%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-    margin-left: 806px
+    margin-left: 845px
 }
 
 header nav a {
@@ -119,10 +119,11 @@ header nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    border-bottom: 1px dashed black;
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
+    width: 112px;
     height: 100px;
     margin: 20px 2.5%;
     color: white;
@@ -137,6 +138,8 @@ header nav a {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    /* border-top: 1px dashed black;
+    padding-top: 20px; */
 }
 
 .bottom-content .text-container {
@@ -210,24 +213,30 @@ footer nav a {
 
 .middle-content {
     display: flex;
-    /* margin: 0 2% 20px; */
     justify-content: space-around;
-    /* width: 200px; */
-    
     margin-top: 20px;
 }
 
 .middle-info {
-    width: 300px;
+    width: 408px;
     padding: 20px;
     border-bottom: 1px dashed black;
+}
+
+.middle-info h2 {
+    margin: 15px 0;
+}
+
+.middle-info p {
+    padding-bottom: 20px;
 }
 
 
 button {
     border-radius: 10px;
-    padding: 8ox 30px;
+    padding: 8px 30px;
     background: transparent;
+    border: 1px solid black;
 }
 
 .box-img {
@@ -245,9 +254,17 @@ button {
 }
 
 .bottom-info {
-    width: 300px;
+    width: 408px;
     padding: 20px;
     border-bottom: 1px dashed black;
+}
+
+.bottom-info h2 {
+    margin: 15px 0;
+}
+
+.bottom-info p {
+    padding-bottom: 20px;
 }
 
 .last-info {
@@ -256,5 +273,6 @@ button {
 
 .about-info {
     border-bottom: 1px dashed black;
-    padding-bottom: 23px;
+    padding: 23px 0px;
 }
+
